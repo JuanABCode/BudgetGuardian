@@ -1,0 +1,16 @@
+{
+  "name": "budgetguardian",
+  "version": "1.0.0",
+  "description": "BudgetGuardian is a web app that helps you track your income and expenses easily.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Juan Benazar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
