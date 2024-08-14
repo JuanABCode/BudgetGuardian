@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Guardian</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-nav">
+            <img src="images/BudgetGuardian.png" alt="Budget Guardian Logo">
+            <nav class="left-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">What is Budget Guardian?</a>
+            </nav>
+        </div>
+        <a href="finance.html" class="cta-button">Help me Finance</a>
+    </header>
+
+    <section class="main-content">
+        <div class="sidebar">
+            <h2>Welcome</h2>
+            <p>Budget</p>
+            <h3 id="balance-amount">$0.00</h3>
+            <button id="add-balance-button" class="cta-button">Add Balance</button>
+        </div>
+        <div class="content">
+            <h1>August 2024</h1>
+            <h3 id="current-balance">$0.00</h3>
+            <a href="#" id="all-money-assigned">All Money Assigned</a>
+            <button id="add-category-button" class="cta-button">Add Category</button>
+            <div class="category-list">
+                <div class="category">
+                    <h3>Bills</h3>
+                    <button class="expand-collapse-btn">-</button>
+                    <button class="add-subcategory-btn">+</button>
+                    <div class="subcategory">
+                        <span>Mortgage</span><span class="assign-amount">$0.00</span>
+                    </div>
+                    <div class="subcategory">
+                        <span>Electricity</span><span class="assign-amount">$0.00</span>
+                    </div>
+                    <div class="subcategory">
+                        <span>Garbage</span><span class="assign-amount">$0.00</span>
+                    </div>
+                    <div class="subcategory">
+                        <span>Water</span><span class="assign-amount">$0.00</span>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>Needs</h3>
+                    <button class="expand-collapse-btn">-</button>
+                    <button class="add-subcategory-btn">+</button>
+                    <div class="subcategory">
+                        <span>Groceries</span><span class="assign-amount">$0.00</span>
+                    </div>
+                    <div class="subcategory">
+                        <span>Emergency fund</span><span class="assign-amount">$0.00</span>
+                    </div>
+                    <div class="subcategory">
+                        <span>Investments</span><span class="assign-amount">$0.00</span>
+                    </div>
+                    <div class="subcategory">
+                        <span>Gas</span><span class="assign-amount">$0.00</span>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>Wants</h3>
+                    <button class="expand-collapse-btn">-</button>
+                    <button class="add-subcategory-btn">+</button>
+                    <div class="subcategory">
+                        <span>Dining out</span><span class="assign-amount">$0.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
